@@ -189,7 +189,7 @@ Components are organized as microservices and independent repositories, which no
     >        </Location>
     >
     >        # Data Access Committee portal API service.
-    >        <Location /catalogue_outbox/api>
+    >        <Location /api>
     >            ProxyPass http://host-ip:9090 connectiontimeout=1800 timeout=1800
     >            ProxyPassReverse http://host-ip:9090
     >        </Location>
